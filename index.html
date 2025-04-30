@@ -1,75 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Federal Copilot Webinars</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Federal Copilot Webinars</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #fafbfc;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+      color: #222;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+    .card-grid {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      width: 270px;
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0;
+      margin-bottom: 24px;
+      border: 1px solid #e1e4e8;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+    .card-header {
+      padding: 24px 24px 0 24px;
+    }
+    .card-date {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #444;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .card-day {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #222;
+    }
+    .card-desc {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 18px;
+    }
+    .card-time {
+      font-style: italic;
+      color: #333;
+      margin-bottom: 4px;
+      font-size: 1rem;
+    }
+    .card-location {
+      color: #666;
+      font-size: 0.98rem;
+      margin-bottom: 12px;
+    }
+    .card-footer {
+      border-top: 1px solid #f0f0f0;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      min-height: 48px;
+    }
+    .calendar-link {
+      text-decoration: none;
+      color: #0078d4;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .calendar-link:hover {
+      color: #005a9e;
+      text-decoration: underline;
+    }
+    .calendar-icon {
+      width: 22px;
+      height: 22px;
+      margin-right: 8px;
+      vertical-align: middle;
+      fill: #b1461b;
+    }
+    @media (max-width: 900px) {
+      .card-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
     <h1>Federal Copilot Webinars</h1>
     <p>Join us for a series of webinars on Microsoft 365 Copilot, designed to empower every employee with the tools they need to succeed.</p>
-
     <h2>Upcoming Webinars</h2>
-<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
-    <thead>
-        <tr>
-            <th>MAY&nbsp;1</th>
-            <th>MAY&nbsp;13</th>
-            <th>MAY&nbsp;20</th>
-            <th>MAY&nbsp;27</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <strong>Meeting</strong><br>
-                Webinar - Microsoft 365 Copilot Chat – empowering every employee with a Copilot 
-            </td>
-            <td>
-                <strong>Meeting</strong><br>
-                Webinar – M365 Copilot Chat and prompt engineering (M365 Copilot)
-            </td>
-            <td>
-                <strong>Meeting</strong><br>
-                Webinar – Copilot in Teams, Outlook, Word, and PPT (Microsoft 365 Copilot)
-            </td>
-            <td>
-                <strong>Meeting</strong><br>
-                Webinar – Realize Value with Copilot Chat
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <em>Thu, May 1, 12:00 PM</em><br>
-                Teams meeting
-            </td>
-            <td>
-                <em>Tue, May 13, 12:00 PM</em><br>
-                Teams Meeting
-            </td>
-            <td>
-                <em>Tue, May 20, 12:00 PM</em><br>
-                Teams Meeting
-            </td>
-            <td>
-                <em>Tue, May 27, 12:00 PM</em><br>
-                Teams meeting
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td>
-                <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">📅 Add to calendar</a>
-            </td>
-            <td>
-                <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-20.ics" download="webinar-2025-05-20.ics">📅 Add to calendar</a>
-            </td>
-            <td>
-                <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-27.ics" download="webinar-2025-05-27.ics">📅 Add to calendar</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+    <div class="card-grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-date">MAY</div>
+          <div class="card-day">1</div>
+          <div class="card-title">Meeting</div>
+          <div class="card-desc">Microsoft 365 Copilot Chat – empowering every employee with a Copilot</div>
+          <div class="card-time">Thu, May 1, 12:00 PM</div>
+          <div class="card-location">Teams meeting</div>
+        </div>
+        <div class="card-footer">
+          <!-- No calendar link for this one -->
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-date">MAY</div>
+          <div class="card-day">13</div>
+          <div class="card-title">Meeting</div>
+          <div class="card-desc">M365 Copilot Chat and prompt engineering (M365 Copilot)</div>
+          <div class="card-time">Tue, May 13, 12:00 PM</div>
+          <div class="card-location">Teams Meeting</div>
+        </div>
+        <div class="card-footer">
+          <a class="calendar-link" href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">
+            <svg class="calendar-icon" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" fill="#fff" stroke="#b1461b" stroke-width="1.5"/>
+              <rect x="3" y="8" width="18" height="2" fill="#b1461b"/>
+              <rect x="7" y="12" width="10" height="6" fill="#b1461b" opacity="0.2"/>
+              <rect x="10" y="15" width="4" height="2" fill="#b1461b"/>
+            </svg>
+            Add to calendar
+          </a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-date">MAY</div>
+          <div class="card-day">20</div>
+          <div class="card-title">Meeting</div>
+          <div class="card-desc">Copilot in Teams, Outlook, Word, and PPT (Microsoft 365 Copilot)</div>
+          <div class="card-time">Tue, May 20, 12:00 PM</div>
+          <div class="card-location">Teams Meeting</div>
+        </div>
+        <div class="card-footer">
+          <a class="calendar-link" href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-20.ics" download="webinar-2025-05-20.ics">
+            <svg class="calendar-icon" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" fill="#fff" stroke="#b1461b" stroke-width="1.5"/>
+              <rect x="3" y="8" width="18" height="2" fill="#b1461b"/>
+              <rect x="7" y="12" width="10" height="6" fill="#b1461b" opacity="0.2"/>
+              <rect x="10" y="15" width="4" height="2" fill="#b1461b"/>
+            </svg>
+            Add to calendar
+          </a>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-date">MAY</div>
+          <div class="card-day">27</div>
+          <div class="card-title">Meeting</div>
+          <div class="card-desc">Realize Value with Copilot Chat</div>
+          <div class="card-time">Tue, May 27, 12:00 PM</div>
+          <div class="card-location">Teams meeting</div>
+        </div>
+        <div class="card-footer">
+          <a class="calendar-link" href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-27.ics" download="webinar-2025-05-27.ics">
+            <svg class="calendar-icon" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" fill="#fff" stroke="#b1461b" stroke-width="1.5"/>
+              <rect x="3" y="8" width="18" height="2" fill="#b1461b"/>
+              <rect x="7" y="12" width="10" height="6" fill="#b1461b" opacity="0.2"/>
+              <rect x="10" y="15" width="4" height="2" fill="#b1461b"/>
+            </svg>
+            Add to calendar
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
