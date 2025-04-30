@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+
+BEGIN:VEVENT
+DTSTAMP:20250430T15643Z
+
+DTSTART:20250520T120000
+DTEND:20250520T130000
+SUMMARY:Webinar - Copilot in Teams, Outlook, Word, and PPT (Microsoft 365 Copilot)
+
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns="http://www.w3.org/1999/xhtml"><head><base href="https://microsoft.sharepoint.com" /></head><body><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d"><span style="font-size:16.0pt;color:#0066CC">https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d</span></a><h2 style="margin-left:0px;"><span style="background-color:rgb(255, 255, 255);color:inherit;">🚀</span>Come learn how to use Copilot in Teams, Outlook, Word, and PPT! <span style="background-color:rgb(255, 255, 255);color:inherit;">🚀</span></h2><p style="margin-left:0px;"><span class="fontSizeMedium">As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Microsoft 365 Copilot in Teams, Outlook, Word, and PowerPoint!</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">During this webinar, you will learn the benefits of using Microsoft 365 Copilot in M365 apps and try it hands on with interactive exercises!</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">*Interactive exercises require Microsoft 365 license in your corporate environment.</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">If you have questions about this email, please reach out to your Microsoft Account Representative.</span></p><p style="margin-left:0px;"><span class="fontSizeXLargePlus"><span style="color:inherit;"><strong>Microsoft Teams meeting</strong></span></span> <a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US"><u>Need help?</u></a></p><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Join:</strong></span> <a href="https://teams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW"><strong><u>https://teams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW</u></strong></a> </p><p style="margin-left:0px;"><span class="fontSizeMedium">Meeting ID: 237 587 378 117 1</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">Passcode: P2AK2PP2</span></p><hr /><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Dial in by phone</strong></span></p><p style="margin-left:0px;"><a><u>+1 323-849-4874,,309441534#</u></a> <span class="fontSizeMedium">United States, Los Angeles</span></p><p style="margin-left:0px;"><a href="https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=309441534"><u>Find a local number</u></a></p><p style="margin-left:0px;"><span class="fontSizeMedium">Phone conference ID: 309 441 534#</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">For organizers: </span><a href="https://teams.microsoft.com/meetingOptions/?organizerId=5f858822-5529-4e1c-87cd-0199d35d981f&amp;tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&amp;threadId=19_meeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%40thread.v2&amp;messageId=0&amp;language=en-US"><u>Meeting options</u></a> | <a href="https://dialin.teams.microsoft.com/usp/pstnconferencing"><u>Reset dial-in PIN</u></a></p></body></html>
+LOCATION:Teams Meeting
+
+
+
+
+
+CATEGORIES:Meeting
+END:VEVENT
+END:VCALENDAR

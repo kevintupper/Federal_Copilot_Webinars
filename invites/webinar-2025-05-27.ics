@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+
+BEGIN:VEVENT
+DTSTAMP:20250430T151835Z
+
+DTSTART:20250527T120000
+DTEND:20250527T130000
+SUMMARY:Webinar - Realize Value with Copilot Chat
+
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns="http://www.w3.org/1999/xhtml"><head><base href="https://microsoft.sharepoint.com" /></head><body><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWM0ODE1MmItNDU3Yi00NTU3LWExMTEtMDNlMWE5ODIxOWRi%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d"><span style="font-size:16.0pt;color:#0066CC">https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWM0ODE1MmItNDU3Yi00NTU3LWExMTEtMDNlMWE5ODIxOWRi%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d</span></a><h2 style="margin-left:0px;"><span style="background-color:rgb(255, 255, 255);color:inherit;">🚀</span>Come learn how to empower every employee with a Copilot<span style="background-color:rgb(255, 255, 255);color:inherit;">🚀</span></h2><p style="margin-left:0px;"><span class="fontSizeMedium">As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Copilot Chat - Copilot for All! Microsoft 365 Copilot Chat is already included in your M365 license.</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">During this webinar, you will learn the benefits of using our free, secure AI chat interface - Microsoft 365 Copilot Chat and try it hands on with interactive exercises!</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">If you have questions about this email, please reach out to your Microsoft Account Representative.</span></p><p style="margin-left:0px;"><span class="fontSizeXLargePlus"><span style="color:inherit;"><strong>Microsoft Teams meeting</strong></span></span> <a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US"><u>Need help?</u></a></p><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Join:</strong></span> <a href="https://teams.microsoft.com/meet/2800596402752?p=IPrBiOdBdZENe9Mb2t"><strong><u>https://teams.microsoft.com/meet/2800596402752?p=IPrBiOdBdZENe9Mb2t</u></strong></a> </p><p style="margin-left:0px;"><span class="fontSizeMedium">Meeting ID: 280 059 640 275 2</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">Passcode: Qn28Ex6b</span></p><hr /><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Dial in by phone</strong></span></p><p style="margin-left:0px;"><a><u>+1 323-849-4874,,889763532#</u></a> <span class="fontSizeMedium">United States, Los Angeles</span></p><p style="margin-left:0px;"><a href="https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=889763532"><u>Find a local number</u></a></p><p style="margin-left:0px;"><span class="fontSizeMedium">Phone conference ID: 889 763 532#</span></p></body></html>
+LOCATION:Teams meeting
+
+
+
+
+
+CATEGORIES:Meeting
+END:VEVENT
+END:VCALENDAR
