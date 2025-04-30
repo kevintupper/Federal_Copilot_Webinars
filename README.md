@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -54,10 +53,10 @@
             </tr>
             <tr>
                 <td>
-                    <a href="/invites/webinar-2025-05-01.ics" download="webinar-2025-05-01.ics">📅 Add to calendar</a>
+                    <a href="./Federal_Copilot_Webinars/invites/webinar-2025-05-01.ics" download="webinar-2025-05-01.ics">📅 Add to calendar</a>
                 </td>
                 <td>
-                    <a href="/invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">📅 Add to calendar</a>
+                    <a href="./invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">📅 Add to calendar</a>
                 </td>
                 <td>
                     <a href="/invites/webinar-2025-05-20.ics" download="webinar-2025-05-20.ics">📅 Add to calendar</a>
