@@ -18,7 +18,7 @@
             <tr>
                 <td>
                     <strong>Meeting</strong><br>
-                    Microsoft 365 Copilot Chat – empowering every employee with a
+                    Webinar - Microsoft 365 Copilot Chat – empowering every employee with a Copilot 
                 </td>
                 <td>
                     <strong>Meeting</strong><br>
@@ -53,16 +53,15 @@
             </tr>
             <tr>
                 <td>
-                    <a href="./Federal_Copilot_Webinars/invites/webinar-2025-05-01.ics" download="webinar-2025-05-01.ics">📅 Add to calendar</a>
                 </td>
                 <td>
-                    <a href="./invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">📅 Add to calendar</a>
+                    <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-13.ics" download="webinar-2025-05-13.ics">📅 Add to calendar</a>
                 </td>
                 <td>
-                    <a href="/invites/webinar-2025-05-20.ics" download="webinar-2025-05-20.ics">📅 Add to calendar</a>
+                    <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-20.ics" download="webinar-2025-05-20.ics">📅 Add to calendar</a>
                 </td>
                 <td>
-                    <a href="/invites/webinar-2025-05-27.ics" download="webinar-2025-05-27.ics">📅 Add to calendar</a>
+                    <a href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-27.ics" download="webinar-2025-05-27.ics">📅 Add to calendar</a>
                 </td>
             </tr>
         </tbody>
