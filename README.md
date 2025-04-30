@@ -1,1 +1,1 @@
-# Federal Copilot Webnars
+# Federal Copilot Webinars
