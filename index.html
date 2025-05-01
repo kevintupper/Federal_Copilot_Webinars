@@ -45,6 +45,7 @@
         margin-bottom: 24px;
         border: 1px solid #e1e4e8;
         transition: box-shadow 0.2s;
+        height: 100%; /* Ensures all cards are the same height */
       }
       .card:hover {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
@@ -53,6 +54,7 @@
         padding: 24px 24px 0 24px;
         display: flex;
         flex-direction: column;
+        flex-grow: 1; /* Allows the header to take up available space */
       }
       .card-date {
         font-size: 1.1rem;
@@ -87,17 +89,20 @@
         border: none;
         border-top: 1px solid #eee;
         margin: 16px 0 12px 0;
+        margin-top: auto; /* Pushes these elements to the bottom of the card */
       }
       .card-time {
         font-style: italic;
         color: #333;
         margin-bottom: 4px;
         font-size: 1rem;
+        margin-top: auto; /* Pushes these elements to the bottom of the card */
       }
       .card-location {
         color: #666;
         font-size: 0.98rem;
         margin-bottom: 12px;
+        margin-top: auto; /* Pushes these elements to the bottom of the card */
       }
       .card-footer {
         border-top: 1px solid #f0f0f0;
@@ -105,6 +110,7 @@
         display: flex;
         align-items: center;
         min-height: 48px;
+        margin-top: 16px; /* Ensures the footer is spaced properly */
       }
       .calendar-link {
         text-decoration: none;
@@ -339,7 +345,7 @@
             <div class="card-title">Realize Value with Copilot Chat</div>
             <hr class="card-divider" />
             <div class="card-desc">
-              <p>🚀 ome learn how to empower every employee with a Copilot 🚀</p>
+              <p>🚀 Come learn how to empower every employee with a Copilot 🚀</p>
               <p>
                 As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Copilot Chat - Copilot for All! Microsoft 365 Copilot Chat is already included in your M365 license.
               </p>
