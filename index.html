@@ -5,154 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Federal Copilot Webinars</title>
     <style>
-      body {
-        font-family: "Segoe UI", Arial, sans-serif;
-        background: #fafbfc;
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        max-width: 1200px;
-        margin: 40px auto;
-        padding: 0 16px;
-      }
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 0.5em;
-        color: #222;
-      }
-      h2 {
-        font-size: 1.5rem;
-        margin-bottom: 1.5em;
-        color: #444;
-      }
-      .card-grid {
-        display: flex;
-        gap: 32px;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: stretch;
-      }
-      .card {
-        background: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-        width: 270px;
-        min-height: 320px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 0;
-        margin-bottom: 24px;
-        border: 1px solid #e1e4e8;
-        transition: box-shadow 0.2s;
-        height: 100%; /* Ensures all cards are the same height */
-      }
-      .card:hover {
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-      }
-      .card-header {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto auto;
-        /* date, day, title, desc (fills), divider/time/location at bottom */
-        padding: 24px 24px 0 24px;
-        height: 100%;
-      }
-      .card-date {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #444;
-        letter-spacing: 1px;
-        margin-bottom: 4px;
-      }
-      .card-day {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #222;
-        margin-bottom: 12px;
-        line-height: 1;
-      }
-      .card-title {
-        font-size: 1.05rem;
-        font-weight: 600;
-        margin-bottom: 6px;
-        color: #222;
-        min-height: 48px; /* Ensures all titles are at least this tall */
-        display: flex;
-        align-items: flex-start;
-      }
-      .card-desc {
-        font-size: 1rem;
-        color: #444;
-        margin-bottom: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        min-height: 260px; /* Adjust this to match the tallest description */
-      }
-      .card-divider {
-        border: none;
-        border-top: 1px solid #eee;
-        margin: 16px 0 12px 0;
-        margin-top: auto; /* Pushes these elements to the bottom of the card */
-      }
-      .card-time {
-        font-style: italic;
-        color: #333;
-        margin-bottom: 4px;
-        font-size: 1rem;
-        margin-top: auto; /* Pushes these elements to the bottom of the card */
-      }
-      .card-location {
-        color: #666;
-        font-size: 0.98rem;
-        margin-bottom: 12px;
-        margin-top: auto; /* Pushes these elements to the bottom of the card */
-      }
-      .card-footer {
-        border-top: 1px solid #f0f0f0;
-        padding: 16px 24px;
-        display: flex;
-        align-items: center;
-        min-height: 48px;
-        margin-top: 16px; /* Ensures the footer is spaced properly */
-      }
-      .calendar-link {
-        text-decoration: none;
-        color: #0078d4;
-        font-weight: 500;
-        display: flex;
-        align-items: center;
-        font-size: 1rem;
-        transition: color 0.2s;
-      }
-      .calendar-link:hover {
-        color: #005a9e;
-        text-decoration: underline;
-      }
-      .calendar-icon {
-        width: 22px;
-        height: 22px;
-        margin-right: 8px;
-        vertical-align: middle;
-        fill: #b1461b;
-      }
-      @media (max-width: 900px) {
-        .card-grid {
-          flex-direction: column;
-          align-items: center;
-        }
-      }
+      /* ---- layout ---- */
+      body        {font-family:"Segoe UI",Arial,sans-serif;background:#fafbfc;margin:0}
+      .container  {max-width:1200px;margin:40px auto;padding:0 16px}
+      h1          {font-size:2.5rem;margin:.5em 0;color:#222}
+      h2          {font-size:1.5rem;margin:1.5em 0;color:#444}
+
+      /* two-column grid */
+      .card-grid  {display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+
+      /* single column on narrow screens */
+      @media(max-width:900px){.card-grid{grid-template-columns:1fr}}
+
+      /* ---- card ---- */
+      .card{background:#fff;border:1px solid #e1e4e8;border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,.07);display:flex;flex-direction:column;
+            transition:box-shadow .2s}
+      .card:hover{box-shadow:0 4px 16px rgba(0,0,0,.12)}
+
+      .card-header{display:flex;flex-direction:column;padding:24px 24px 0}
+      .card-date  {font-size:1.1rem;font-weight:600;color:#444;letter-spacing:1px;margin-bottom:4px}
+      .card-day   {font-size:2.5rem;font-weight:700;color:#222;margin-bottom:12px;line-height:1}
+      .card-title {font-size:1.05rem;font-weight:600;margin-bottom:6px;color:#222}
+      .card-desc  {font-size:1rem;color:#444;margin:0 0 16px auto}
+      .card-divider{border:none;border-top:1px solid #eee;margin:16px 0}
+      .card-time  {font-style:italic;color:#333;margin-bottom:4px;font-size:1rem}
+      .card-location{color:#666;font-size:.98rem;margin-bottom:12px}
+      .card-footer{border-top:1px solid #f0f0f0;padding:16px 24px;display:flex;align-items:center}
+
+      .calendar-link{display:flex;align-items:center;text-decoration:none;color:#0078d4;font-weight:500;font-size:1rem;transition:color .2s}
+      .calendar-link:hover{color:#005a9e;text-decoration:underline}
+      .calendar-icon{width:22px;height:22px;margin-right:8px;fill:#b1461b}
     </style>
   </head>
   <body>
     <div class="container">
       <h1>Federal Copilot Webinars</h1>
-      <p>
-        Join us for a series of webinars on Microsoft 365 Copilot, designed to
-        empower every employee with the tools they need to succeed.
-      </p>
+      <p>Join us for a series of webinars on Microsoft&nbsp;365&nbsp;Copilot…</p>
       <h2>Upcoming Webinars</h2>
+
       <div class="card-grid">
         <!-- Card 1 -->
         <div class="card">
@@ -402,5 +293,32 @@
         </div>
       </div>
     </div>
+
+    <script>
+      /* equal-height titles & descriptions per row (2 cards per row) */
+      function equalize() {
+        const titles = document.querySelectorAll(".card-title");
+        const descs  = document.querySelectorAll(".card-desc");
+
+        /* reset */
+        titles.forEach(t => t.style.height = "auto");
+        descs .forEach(d => d.style.height = "auto");
+
+        const cards = [...document.querySelectorAll(".card")];
+        for (let i = 0; i < cards.length; i += 2) {
+          const row   = cards.slice(i, i + 2);
+          const rowTs = row.map(c => c.querySelector(".card-title"));
+          const rowDs = row.map(c => c.querySelector(".card-desc"));
+          const maxT  = Math.max(...rowTs.map(e => e.offsetHeight));
+          const maxD  = Math.max(...rowDs.map(e => e.offsetHeight));
+          rowTs.forEach(e => e.style.height = maxT + "px");
+          rowDs.forEach(e => e.style.height = maxD + "px");
+        }
+      }
+      window.addEventListener("load", equalize);
+      window.addEventListener("resize", () => {clearTimeout(window.eqT); window.eqT = setTimeout(equalize, 100);});
+    </script>
   </body>
 </html>
+
+
