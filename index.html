@@ -31,6 +31,7 @@
         gap: 32px;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: stretch;
       }
       .card {
         background: #fff;
@@ -51,10 +52,11 @@
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
       }
       .card-header {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto auto;
+        /* date, day, title, desc (fills), divider/time/location at bottom */
         padding: 24px 24px 0 24px;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1; /* Allows the header to take up available space */
+        height: 100%;
       }
       .card-date {
         font-size: 1.1rem;
@@ -75,15 +77,18 @@
         font-weight: 600;
         margin-bottom: 6px;
         color: #222;
+        min-height: 48px; /* Ensures all titles are at least this tall */
+        display: flex;
+        align-items: flex-start;
       }
       .card-desc {
         font-size: 1rem;
         color: #444;
         margin-bottom: 0;
-        min-height: 120px; /* Ensures all descriptions have the same height */
-        display: block; /* Aligns content to the top */
-        overflow: hidden; /* Prevents overflow if content exceeds the height */
-        text-overflow: ellipsis; /* Adds ellipsis if content is too long */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 260px; /* Adjust this to match the tallest description */
       }
       .card-divider {
         border: none;
