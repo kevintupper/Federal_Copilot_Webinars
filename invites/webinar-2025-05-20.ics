@@ -1,223 +1,145 @@
 BEGIN:VCALENDAR
-PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
 VERSION:2.0
-METHOD:REQUEST
-X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VTIMEZONE
-TZID:Eastern Standard Time
+TZID:tzone://Microsoft/Utc
 BEGIN:STANDARD
-DTSTART:16011104T020000
-RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
-TZOFFSETFROM:-0400
-TZOFFSETTO:-0500
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
 END:STANDARD
 BEGIN:DAYLIGHT
-DTSTART:16010311T020000
-RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
-TZOFFSETFROM:-0500
-TZOFFSETTO:-0400
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-ATTENDEE;CN="Abby Quinn (She/Her)";RSVP=TRUE:mailto:Abby.Quinn@microsoft.co
-	m
-ATTENDEE;CN="Bonnie Jones (MW)";RSVP=TRUE:mailto:Bonnie.Jones@microsoft.com
-ATTENDEE;CN="Kevin Tupper";RSVP=TRUE:mailto:kevin.tupper@microsoft.com
-CLASS:PUBLIC
-CREATED:20250501T183055Z
-DESCRIPTION:\n🚀Come learn how to use Copilot in Teams\, Outlook\, Word
-	\, and PPT! 🚀\n\n\nAs part of our Microsoft 365 Copilot series of web
-	inars\, we are inviting you to an interactive session on Microsoft 365 Cop
-	ilot in Teams\, Outlook\, Word\, and PowerPoint!\n\n\n\n\nDuring this webi
-	nar\, you will learn the benefits of using Microsoft 365 Copilot in M365 a
-	pps and try it hands on with interactive exercises!\n\n\n\n\n*Interactive 
-	exercises require Microsoft 365 license in your corporate environment.\n\n
-	\n\n\nIf you have questions about this email\, please reach out to your Mi
-	crosoft Account Representative.\n\n\n\n\n_________________________________
-	_______________________________________________\nMicrosoft Teams meeting N
-	eed help? <https://aka.ms/JoinTeamsMeeting?omkt=en-US>  \nJoin: https://te
-	ams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW <https://teams.m
-	icrosoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW>   <https://teams.mic
-	rosoft.com/l/meetup-join/19%3ameeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0
-	MzY5NzIyYTMx%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91
-	ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%2
-	2%7d>  \nMeeting ID: 237 587 378 117 1 \nPasscode: P2AK2PP2 \n____________
-	____________________\n\nDial in by phone \n+1 323-849-4874\,\,309441534# <
-	tel:+13238494874\,\,309441534#>  United States\, Los Angeles \nFind a loca
-	l number <https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa5
-	17a91c5?id=309441534>  \nPhone conference ID: 309 441 534# \nFor organizer
-	s: Meeting options <https://teams.microsoft.com/meetingOptions/?organizerI
-	d=5f858822-5529-4e1c-87cd-0199d35d981f&tenantId=72f988bf-86f1-41af-91ab-2d
-	7cd011db47&threadId=19_meeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzI
-	yYTMx@thread.v2&messageId=0&language=en-US>  | Reset dial-in PIN <https://
-	dialin.teams.microsoft.com/usp/pstnconferencing>  \n <https://us-prod.asyn
-	cgw.teams.microsoft.com/v1/objects/0-cus-d9-299af646bec93ea1c7cc1c9ec27631
-	53/views/imgt2?amsauth=amsdocv1.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNTMyNDBlNW
-	U4MzA2.RGlFWWhlZCtpVTQxT2xnTkp6aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM4TjErb1Z
-	1UUNBVjRaOWRNR3NFeDZ5TjYzMFpjKzdQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R2dHZmtnc
-	1NKQjZaSzlQMHNYTjJOdzRKMS9naFplQzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y2K0RTdFE
-	zRWNrZElBQWpZME95QWR5V1g4VDhGTUZ4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82bmhCc1NJY
-	1BERDFWemJYT0V4M1Q5c1dTT0U4Z2ExSlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzhFMENMNy9
-	WS1RBWUJCOWhBK1lGQzZhUlRkbDdDVjZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUYzAyTmMvR
-	khjWmpWM2p0Zzh5U2xnPT0.dGVhbXMubW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk0NGE0N2I
-	yN2JhODkyYjg3NWRhNGY.AeWjJxcwHQq8IzF_8msiTLtJsrwscuGjDZgEy055oFsVEbsfkHB2W
-	nUd1YXjox4zw3Jbg4whGQMNcXeeS069_iM> \n____________________________________
-	____________________________________________\n
-DTEND;TZID="Eastern Standard Time":20250520T130000
-DTSTAMP:20250430T190158Z
-DTSTART;TZID="Eastern Standard Time":20250520T120000
-LAST-MODIFIED:20250501T183055Z
-LOCATION:Microsoft Teams Meeting
-ORGANIZER;CN="Diana Berson":mailto:dianab@microsoft.com
-PRIORITY:5
-SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:Webinar - Copilot in Teams\, Outlook\, Word\, and PP
-	T (Microsoft 365 Copilot)
-TRANSP:OPAQUE
+ORGANIZER;CN=Diana Berson:mailto:dianab@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Diana Bers
+ on:mailto:dianab@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Abby Quinn
+  (She/Her):mailto:Abby.Quinn@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bonnie Jon
+ es (MW):mailto:Bonnie.Jones@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kevin Tupp
+ er:mailto:kevin.tupper@microsoft.com
+DESCRIPTION:🚀Come learn how to use Copilot in Teams\, Outlook\, Word\, a
+ nd PPT! 🚀\n\nAs part of our Microsoft 365 Copilot series of webinars\, 
+ we are inviting you to an interactive session on Microsoft 365 Copilot in 
+ Teams\, Outlook\, Word\, and PowerPoint!\n\n\nDuring this webinar\, you wi
+ ll learn the benefits of using Microsoft 365 Copilot in M365 apps and try 
+ it hands on with interactive exercises!\n\n\n*Interactive exercises requir
+ e Microsoft 365 license in your corporate environment.\n\n\nIf you have qu
+ estions about this email\, please reach out to your Microsoft Account Repr
+ esentative.\n\n\n\n_______________________________________________________
+ _________________________\nMicrosoft Teams meeting Need help?<https://nam0
+ 6.safelinks.protection.outlook.com/?url=https%3A%2F%2Faka.ms%2FJoinTeamsMe
+ eting%3Fomkt%3Den-US&data=05%7C02%7Ckevin.tupper%40microsoft.com%7C708de5c
+ f0ddd4bb7186d08dd88197b79%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638
+ 816365201959126%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLj
+ AuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sd
+ ata=0q5VCVSy%2BtJMM8Qt6BxIXHyS5ZE6edC4%2BHpObq6cJwE%3D&reserved=0>\nJoin: 
+ https://teams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW<https:
+ //nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fteams.microsof
+ t.com%2Fmeet%2F2375873781171%3Fp%3D0LgnXOsait6cD5p1KW&data=05%7C02%7Ckevin
+ .tupper%40microsoft.com%7C708de5cf0ddd4bb7186d08dd88197b79%7C72f988bf86f14
+ 1af91ab2d7cd011db47%7C1%7C0%7C638816365201981237%7CUnknown%7CTWFpbGZsb3d8e
+ yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCI
+ sIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=2qf5GmmdPPiuM3SZc2ye0y2M3EfHZtZYpRQu9
+ BPqJSk%3D&reserved=0> <https://nam06.safelinks.protection.outlook.com/ap/t
+ -59584e83/?url=https%3A%2F%2Fteams.microsoft.com%2Fl%2Fmeetup-join%2F19%25
+ 3ameeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%2540thread.v2%2
+ F0%3Fcontext%3D%257b%2522Tid%2522%253a%252272f988bf-86f1-41af-91ab-2d7cd01
+ 1db47%2522%252c%2522Oid%2522%253a%25225f858822-5529-4e1c-87cd-0199d35d981f
+ %2522%257d&data=05%7C02%7Ckevin.tupper%40microsoft.com%7C708de5cf0ddd4bb71
+ 86d08dd88197b79%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C6388163652019
+ 95944%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIs
+ IlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OqPp2H
+ OdYXoWa8EeQZl2ElgTh%2B9PakMrJOBVuUOEbz4%3D&reserved=0>\nMeeting ID: 237 58
+ 7 378 117 1\nPasscode: P2AK2PP2\n________________________________\nDial in
+  by phone\n+1 323-849-4874\,\,309441534#<tel:+13238494874\,\,309441534#> U
+ nited States\, Los Angeles\nFind a local number<https://nam06.safelinks.pr
+ otection.outlook.com/?url=https%3A%2F%2Fdialin.teams.microsoft.com%2F8551f
+ 4c1-bea3-441a-8738-69aa517a91c5%3Fid%3D309441534&data=05%7C02%7Ckevin.tupp
+ er%40microsoft.com%7C708de5cf0ddd4bb7186d08dd88197b79%7C72f988bf86f141af91
+ ab2d7cd011db47%7C1%7C0%7C638816365202014339%7CUnknown%7CTWFpbGZsb3d8eyJFbX
+ B0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldU
+ IjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=RcPdHU93PGOtq9hvc7xjS29%2Bhps01QvD79G6ISyG
+ e0Y%3D&reserved=0>\nPhone conference ID: 309 441 534#\nFor organizers: Mee
+ ting options<https://nam06.safelinks.protection.outlook.com/?url=https%3A%
+ 2F%2Fteams.microsoft.com%2FmeetingOptions%2F%3ForganizerId%3D5f858822-5529
+ -4e1c-87cd-0199d35d981f%26tenantId%3D72f988bf-86f1-41af-91ab-2d7cd011db47%
+ 26threadId%3D19_meeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%4
+ 0thread.v2%26messageId%3D0%26language%3Den-US&data=05%7C02%7Ckevin.tupper%
+ 40microsoft.com%7C708de5cf0ddd4bb7186d08dd88197b79%7C72f988bf86f141af91ab2
+ d7cd011db47%7C1%7C0%7C638816365202028247%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0e
+ U1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjo
+ yfQ%3D%3D%7C0%7C%7C%7C&sdata=X4BGvVkN%2FrAk2geX0jIMNFzujJ5iL7vEgnAilj7yhbI
+ %3D&reserved=0> | Reset dial-in PIN<https://nam06.safelinks.protection.out
+ look.com/?url=https%3A%2F%2Fdialin.teams.microsoft.com%2Fusp%2Fpstnconfere
+ ncing&data=05%7C02%7Ckevin.tupper%40microsoft.com%7C708de5cf0ddd4bb7186d08
+ dd88197b79%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638816365202041903
+ %7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiO
+ iJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ilaaQZdhO4f
+ 3ZteaffVrEgHHglwTA65wURH%2FVUfcBws%3D&reserved=0>\n[https://us-prod.asyncg
+ w.teams.microsoft.com/v1/objects/0-cus-d9-299af646bec93ea1c7cc1c9ec2763153
+ /views/imgt2?amsauth=amsdocv1.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNTMyNDBlNWU4
+ MzA2.RGlFWWhlZCtpVTQxT2xnTkp6aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM4TjErb1Z1U
+ UNBVjRaOWRNR3NFeDZ5TjYzMFpjKzdQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R2dHZmtnc1N
+ KQjZaSzlQMHNYTjJOdzRKMS9naFplQzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y2K0RTdFEzR
+ WNrZElBQWpZME95QWR5V1g4VDhGTUZ4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82bmhCc1NJY1B
+ ERDFWemJYT0V4M1Q5c1dTT0U4Z2ExSlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzhFMENMNy9WS
+ 1RBWUJCOWhBK1lGQzZhUlRkbDdDVjZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUYzAyTmMvRkh
+ jWmpWM2p0Zzh5U2xnPT0.dGVhbXMubW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk0NGE0N2IyN
+ 2JhODkyYjg3NWRhNGY.AeWjJxcwHQq8IzF_8msiTLtJsrwscuGjDZgEy055oFsVEbsfkHB2WnU
+ d1YXjox4zw3Jbg4whGQMNcXeeS069_iM]\n_______________________________________
+ _________________________________________\n
 UID:040000008200E00074C5B7101A82E008000000005759A35702BADB01000000000000000
-	01000000076CDB79B0382244C97662EA6F7C12756
-X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<h2 class="
-	elementToProof" style="text-align: left\; text-indent: 0px\; background-co
-	lor: rgb(255\, 255\, 255)\; margin-left: 0px\; font-family: &quot\;Segoe U
-	I&quot\;\, &quot\;Segoe UI Web (West European)&quot\;\, &quot\;Segoe UI&qu
-	ot\;\, -apple-system\, BlinkMacSystemFont\, Roboto\, &quot\;Helvetica Neue
-	&quot\;\, sans-serif\; color: rgb(66\, 66\, 66)\;">\n<span style="backgrou
-	nd-color: rgb(255\, 255\, 255)\;">🚀</span>Come learn how to use Copil
-	ot in Teams\, Outlook\, Word\, and PPT!\n<span style="background-color: rg
-	b(255\, 255\, 255)\;">🚀</span></h2>\n<p class="elementToProof" style=
-	"text-align: left\; text-indent: 0px\; background-color: rgb(255\, 255\, 2
-	55)\; margin-left: 0px\;">\n<span style="font-family: &quot\;Segoe UI&quot
-	\;\, &quot\;Segoe UI Web (West European)&quot\;\, &quot\;Segoe UI&quot\;\,
-	 -apple-system\, BlinkMacSystemFont\, Roboto\, &quot\;Helvetica Neue&quot\
-	;\, sans-serif\; font-size: 14px\; color: rgb(66\, 66\, 66)\;">As&nbsp\;pa
-	rt of our Microsoft 365 Copilot series of webinars\, we\n are inviting you
-	 to an interactive session on Microsoft 365 Copilot in Teams\, Outlook\, W
-	ord\, and PowerPoint!</span></p>\n<p class="elementToProof" style="text-al
-	ign: left\; text-indent: 0px\; background-color: rgb(255\, 255\, 255)\; ma
-	rgin-left: 0px\;">\n<span style="font-family: &quot\;Segoe UI&quot\;\, &qu
-	ot\;Segoe UI Web (West European)&quot\;\, &quot\;Segoe UI&quot\;\, -apple-
-	system\, BlinkMacSystemFont\, Roboto\, &quot\;Helvetica Neue&quot\;\, sans
-	-serif\; font-size: 14px\; color: rgb(66\, 66\, 66)\;"><br>\n</span></p>\n
-	<p class="elementToProof" style="text-align: left\; text-indent: 0px\; bac
-	kground-color: rgb(255\, 255\, 255)\; margin-left: 0px\;">\n<span style="f
-	ont-family: &quot\;Segoe UI&quot\;\, &quot\;Segoe UI Web (West European)&q
-	uot\;\, &quot\;Segoe UI&quot\;\, -apple-system\, BlinkMacSystemFont\, Robo
-	to\, &quot\;Helvetica Neue&quot\;\, sans-serif\; font-size: 14px\; color: 
-	rgb(66\, 66\, 66)\;">During this webinar\, you will learn the benefits of 
-	using Microsoft\n 365 Copilot in M365 apps and try it hands on with intera
-	ctive exercises!</span></p>\n<p class="elementToProof" style="text-align: 
-	left\; text-indent: 0px\; background-color: rgb(255\, 255\, 255)\; margin-
-	left: 0px\;">\n<span style="font-family: &quot\;Segoe UI&quot\;\, &quot\;S
-	egoe UI Web (West European)&quot\;\, &quot\;Segoe UI&quot\;\, -apple-syste
-	m\, BlinkMacSystemFont\, Roboto\, &quot\;Helvetica Neue&quot\;\, sans-seri
-	f\; font-size: 14px\; color: rgb(66\, 66\, 66)\;"><br>\n</span></p>\n<p cl
-	ass="elementToProof" style="text-align: left\; text-indent: 0px\; backgrou
-	nd-color: rgb(255\, 255\, 255)\; margin-left: 0px\;">\n<span style="font-f
-	amily: &quot\;Segoe UI&quot\;\, &quot\;Segoe UI Web (West European)&quot\;
-	\, &quot\;Segoe UI&quot\;\, -apple-system\, BlinkMacSystemFont\, Roboto\, 
-	&quot\;Helvetica Neue&quot\;\, sans-serif\; font-size: 14px\; color: rgb(6
-	6\, 66\, 66)\;">*Interactive exercises require Microsoft 365 license in yo
-	ur\n corporate environment.</span></p>\n<p class="elementToProof" style="t
-	ext-align: left\; text-indent: 0px\; background-color: rgb(255\, 255\, 255
-	)\; margin-left: 0px\;">\n<span style="font-family: &quot\;Segoe UI&quot\;
-	\, &quot\;Segoe UI Web (West European)&quot\;\, &quot\;Segoe UI&quot\;\, -
-	apple-system\, BlinkMacSystemFont\, Roboto\, &quot\;Helvetica Neue&quot\;\
-	, sans-serif\; font-size: 14px\; color: rgb(66\, 66\, 66)\;"><br>\n</span>
-	</p>\n<p class="elementToProof" style="text-align: left\; text-indent: 0px
-	\; background-color: rgb(255\, 255\, 255)\; margin-left: 0px\;">\n<span st
-	yle="font-family: &quot\;Segoe UI&quot\;\, &quot\;Segoe UI Web (West Europ
-	ean)&quot\;\, &quot\;Segoe UI&quot\;\, -apple-system\, BlinkMacSystemFont\
-	, Roboto\, &quot\;Helvetica Neue&quot\;\, sans-serif\; font-size: 14px\; c
-	olor: rgb(66\, 66\, 66)\;">If you have questions about this email\, please
-	 reach out to\n your Microsoft Account Representative.</span></p>\n<div cl
-	ass="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Apto
-	s_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; col
-	or: rgb(0\, 0\, 0)\;">\n<br>\n</div>\n<div style="font-family: Aptos\, Apt
-	os_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\;
-	 font-size: 12pt\; color: rgb(0\, 0\, 0)\;">\n<br>\n</div>\n<br>\n<div sty
-	le="max-width: 600px\; color: #242424\; font-family:'Segoe UI'\,'Helvetica
-	 Neue'\,Helvetica\,Arial\,sans-serif" class="me-email-text">\n<div style="
-	margin-bottom:24px\;overflow:hidden\;white-space:nowrap\;">_______________
-	_________________________________________________________________</div>\n<
-	div style="margin-bottom: 12px\;"><span class="me-email-text" style="font-
-	size: 24px\;font-weight: 700\; margin-right:12px\;">Microsoft Teams meetin
-	g</span>\n<a id="meet_invite_block.action.help" class="me-email-link" styl
-	e="font-size:14px\; text-decoration:underline\; color: #5B5FC7\;" href="ht
-	tps://aka.ms/JoinTeamsMeeting?omkt=en-US">\nNeed help?</a> </div>\n<div st
-	yle="margin-bottom: 6px\; overflow-wrap: break-word\;"><span class="me-ema
-	il-text" style="font-size: 16px\; color: #242424\; font-weight: 600">Join:
-	</span>\n<a id="meet_invite_block.action.join_link" title="Meeting join li
-	nk" aria-label="Meeting join link" class="me-email-link" style="font-size:
-	 16px\; font-weight: 600\; text-decoration: underline\; color: #5B5FC7\;" 
-	href="https://teams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW"
-	>\nhttps://teams.microsoft.com/meet/2375873781171?p=0LgnXOsait6cD5p1KW</a>
-	 <a data-field="value" id="meet_invite_block.action.join_link_compatibilit
-	y" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzgyY2IxYz
-	gtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%40thread.v2/0?context=%7b%22Tid%22%
-	3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-552
-	9-4e1c-87cd-0199d35d981f%22%7d">\n<img style="width: 1px\; height: 1px" he
-	ight="1px" width="1px" src="data:image/png\;base64\,iVBORw0KGgoAAAANSUhEUg
-	AAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="></
-	a>\n</div>\n<div style="margin-bottom: 6px\;"><span class="me-email-text-s
-	econdary" style="font-size: 14px\; color: #616161\;">Meeting ID:\n</span><
-	span class="me-email-text" style="font-size: 14px\; color: #242424\;">237 
-	587 378 117 1</span>\n</div>\n<div style="margin-bottom: 24px\;"><span cla
-	ss="me-email-text-secondary" style="font-size: 14px\; color: #616161\;">Pa
-	sscode:\n</span><span class="me-email-text" style="font-size: 14px\; color
-	: #242424\;">P2AK2PP2</span>\n</div>\n<div style="margin-bottom: 24px\; ma
-	x-width: 532px\;">\n<hr style="border: 0\; background: #D1D1D1\; height: 1
-	px\;">\n</div>\n<div>\n<div style="margin-bottom: 6px\;"><span class="me-e
-	mail-text" style="font-size: 16px\; color: #242424\; font-weight: 600\; ma
-	rgin-right: 4px\;">Dial in by phone</span>\n</div>\n<div style="margin-bot
-	tom: 6px\;"><a id="meet_invite_block.action.join_phone_number1" class="me-
-	email-link" style="font-size: 14px\; text-decoration: underline\; color: #
-	5B5FC7\; margin-right: 6px\;" href="tel:+13238494874\,\,309441534#">+1 323
-	-849-4874\,\,309441534#</a>\n<span class="me-email-text" style="font-size:
-	 14px\; color: #616161\;">United States\, Los Angeles</span>\n</div>\n<div
-	 style="margin-bottom: 6px\;"><a id="meet_invite_block.action.join_phone_f
-	ind_local_number" class="me-email-link" style="font-size: 14px\; text-deco
-	ration: underline\; color: #5B5FC7" href="https://dialin.teams.microsoft.c
-	om/8551f4c1-bea3-441a-8738-69aa517a91c5?id=309441534">Find\n a local numbe
-	r</a> </div>\n</div>\n<div style="margin-bottom: 24px\;"><span class="me-e
-	mail-text-secondary" style="font-size: 14px\; color: #616161\;">Phone conf
-	erence ID:\n</span><span class="me-email-text" style="font-size: 14px\; co
-	lor: #242424\;">309 441 534#</span>\n</div>\n<div><span class="me-email-te
-	xt-secondary" style="font-size: 14px\; color: #616161\;">For organizers:\n
-	</span><a id="meet_invite_block.action.organizer_meet_options" class="me-e
-	mail-link" style="font-size: 14px\; text-decoration: underline\; color: #5
-	B5FC7\;" target="_blank" href="https://teams.microsoft.com/meetingOptions/
-	?organizerId=5f858822-5529-4e1c-87cd-0199d35d981f&amp\;tenantId=72f988bf-8
-	6f1-41af-91ab-2d7cd011db47&amp\;threadId=19_meeting_MzgyY2IxYzgtNTlhOS00ZG
-	VmLTk2NzgtYzQ0MzY5NzIyYTMx@thread.v2&amp\;messageId=0&amp\;language=en-US"
-	 rel="noreferrer noopener">Meeting\n options</a> <span style="color: #D1D1
-	D1">|</span> <a id="meet_invite_block.action.organizer_reset_dialin_pin" c
-	lass="me-email-link" style="font-size: 14px\; text-decoration: underline\;
-	 color: #5B5FC7\;" target="_blank" href="https://dialin.teams.microsoft.co
-	m/usp/pstnconferencing" rel="noreferrer noopener">\nReset dial-in PIN</a> 
-	</div>\n<div style="margin-top: 24px\; margin-bottom: 6px\;"><img style="h
-	eight: 32px\; display: block\; margin-bottom: 6px\;" src="https://us-prod.
-	asyncgw.teams.microsoft.com/v1/objects/0-cus-d9-299af646bec93ea1c7cc1c9ec2
-	763153/views/imgt2?amsauth=amsdocv1.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNTMyND
-	BlNWU4MzA2.RGlFWWhlZCtpVTQxT2xnTkp6aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM4TjE
-	rb1Z1UUNBVjRaOWRNR3NFeDZ5TjYzMFpjKzdQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R2dHZ
-	mtnc1NKQjZaSzlQMHNYTjJOdzRKMS9naFplQzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y2K0R
-	TdFEzRWNrZElBQWpZME95QWR5V1g4VDhGTUZ4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82bmhCc
-	1NJY1BERDFWemJYT0V4M1Q5c1dTT0U4Z2ExSlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzhFMEN
-	MNy9WS1RBWUJCOWhBK1lGQzZhUlRkbDdDVjZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUYzAyT
-	mMvRkhjWmpWM2p0Zzh5U2xnPT0.dGVhbXMubW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk0NGE
-	0N2IyN2JhODkyYjg3NWRhNGY.AeWjJxcwHQq8IzF_8msiTLtJsrwscuGjDZgEy055oFsVEbsfk
-	HB2WnUd1YXjox4zw3Jbg4whGQMNcXeeS069_iM">\n</div>\n<div style="margin-botto
-	m: 24px\;"></div>\n<div style="margin-bottom:24px\;overflow:hidden\;white-
-	space:nowrap\;">__________________________________________________________
-	______________________</div>\n</div>\n</body>\n</html>\n
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+ 01000000076CDB79B0382244C97662EA6F7C12756
+SUMMARY:Webinar - Copilot in Teams\, Outlook\, Word\, and PPT (Microsoft 36
+ 5 Copilot)
+DTSTART:20250520T160000Z
+DTEND:20250520T170000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250430T191134Z
+TRANSP:OPAQUE
+STATUS:TENTATIVE
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
 X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-APPTLASTSEQUENCE:0
-X-MS-OLK-APPTSEQTIME:20250430T190158Z
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzIyYTMx%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22O
+ id%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://dogfood-api.scheduler.teams.
+ microsoft.com/teams/72f988bf-86f1-41af-91ab-2d7cd011db47/5f858822-5529-4e1
+ c-87cd-0199d35d981f/19_meeting_MzgyY2IxYzgtNTlhOS00ZGVmLTk2NzgtYzQ0MzY5NzI
+ yYTMx@thread.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MzgyY2IxYzgtNTlhOS00ZGV
+ mLTk2NzgtYzQ0MzY5NzIyYTMx@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 323-849-4874
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:309441534
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
 BEGIN:VALARM
-TRIGGER:-PT15M
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 END:VCALENDAR
