@@ -78,9 +78,10 @@
         font-size: 1rem;
         color: #444;
         margin-bottom: 0;
-        min-height: 60px; /* Ensures all descriptions are the same height */
-        display: block; /* Remove flex so content aligns to the top */
-        align-items: unset;
+        min-height: 120px; /* Ensures all descriptions have the same height */
+        display: block; /* Aligns content to the top */
+        overflow: hidden; /* Prevents overflow if content exceeds the height */
+        text-overflow: ellipsis; /* Adds ellipsis if content is too long */
       }
       .card-divider {
         border: none;
@@ -279,8 +280,19 @@
             </div>
             <hr class="card-divider" />
             <div class="card-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>🚀 Come learn how to use Copilot in Teams, Outlook, Word, and PPT! 🚀</p>
+              <p>
+                As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Microsoft 365 Copilot in Teams, Outlook, Word, and PowerPoint!
+              </p>
+              <p>
+                During this webinar, you will learn the benefits of using Microsoft 365 Copilot in M365 apps and try it hands on with interactive exercises!
+              </p>
+              <p>
+                *Microsoft 365 Copilot license is required to participate in the interactive session.
+              </p>
+              <p>
+                If you have questions about this event, please reach out to your Microsoft Representative.
+              </p>
             </div>
             <hr class="card-divider" />
             <div class="card-time">Tue, May 20, 12:00 PM</div>
@@ -327,8 +339,19 @@
             <div class="card-title">Realize Value with Copilot Chat</div>
             <hr class="card-divider" />
             <div class="card-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>🚀 ome learn how to empower every employee with a Copilot 🚀</p>
+              <p>
+                As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Copilot Chat - Copilot for All! Microsoft 365 Copilot Chat is already included in your M365 license.
+              </p>
+              <p>
+                During this webinar, you will learn the benefits of using our free, secure AI chat interface - Microsoft 365 Copilot Chat and try it hands on with interactive exercises!
+              </p>
+              <p>
+                *Microsoft 365 Copilot license is required to participate in the interactive session.
+              </p>
+              <p>
+                If you have questions about this event, please reach out to your Microsoft Representative.
+              </p>
             </div>
             <hr class="card-divider" />
             <div class="card-time">Tue, May 27, 12:00 PM</div>
