@@ -1,21 +1,119 @@
 BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
 VERSION:2.0
-PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
-
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20250501T112011Z
-
-DTSTART:20250513T120000
-DTEND:20250513T130000
-SUMMARY:Webinar - M365 Copilot Chat and prompt engineering (M365 Copilot)
-
-X-ALT-DESC;FMTTYPE=text/html:<html xmlns="http://www.w3.org/1999/xhtml"><head><base href="https://microsoft.sharepoint.com" /></head><body><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWIzYmE4YzMtYzI5OC00YzVmLWJkZTgtMjllNTYxMWJjZGY0%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d"><span style="font-size:16.0pt;color:#0066CC">Join meeting</span></a><h2 style="margin-left:0px;"><span class="fontSizeMediumPlus"><span style="background-color:rgb(255, 255, 255);color:inherit;"><strong>🚀</strong></span></span><span class="fontSizeSmall"><span style="color:inherit;">Come learn how to use Microsoft 365 Copilot Chat! </span></span><span class="fontSizeMediumPlus"><span style="background-color:rgb(255, 255, 255);color:inherit;"><strong>🚀</strong></span></span></h2><p style="margin-left:0px;">As part of our Microsoft 365 Copilot series of webinars, we are inviting you to an interactive session on Microsoft 365 Copilot Chat!</p><p style="margin-left:0px;">During this webinar, you will learn the benefits of using Microsoft 365 Copilot Chat and try it hands on with interactive exercises!</p><p style="margin-left:0px;">*Microsoft 365 Copilot license is required to participate in the interactive session.</p><p style="margin-left:0px;">If you have questions about this event, please reach out to your Microsoft Representative.</p><p style="margin-left:0px;"><span class="fontSizeXLargePlus"><span style="color:inherit;"><strong>Microsoft Teams meeting</strong></span></span> <a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US"><u>Need help?</u></a></p><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Join:</strong></span> <a href="https://teams.microsoft.com/meet/2785431422091?p=CH2B6XG0tmsQ8TeQT7"><strong><u>https://teams.microsoft.com/meet/2785431422091?p=CH2B6XG0tmsQ8TeQT7</u></strong></a> </p><p style="margin-left:0px;"><span class="fontSizeMedium">Meeting ID: 278 543 142 209 1</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">Passcode: Wj3C2LA3</span></p><hr /><p style="margin-left:0px;"><span class="fontSizeMediumPlus"><strong>Dial in by phone</strong></span></p><p style="margin-left:0px;"><u>+1 323-849-4874,,133666989#</u> <span class="fontSizeMedium">United States, Los Angeles</span></p><p style="margin-left:0px;"><a href="https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=133666989"><u>Find a local number</u></a></p><p style="margin-left:0px;"><span class="fontSizeMedium">Phone conference ID: 133 666 989#</span></p><p style="margin-left:0px;"><span class="fontSizeMedium">For organizers: </span><a href="https://teams.microsoft.com/meetingOptions/?organizerId=5f858822-5529-4e1c-87cd-0199d35d981f&amp;tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&amp;threadId=19_meeting_ZWIzYmE4YzMtYzI5OC00YzVmLWJkZTgtMjllNTYxMWJjZGY0%40thread.v2&amp;messageId=0&amp;language=en-US"><u>Meeting options</u></a> | <a href="https://dialin.teams.microsoft.com/usp/pstnconferencing"><u>Reset dial-in PIN</u></a></p></body></html>
-LOCATION:Teams Meeting
-
-
-
-
-
-CATEGORIES:Meeting
+ORGANIZER;CN=Diana Berson;SENT-BY="mailto:kevin.tupper@microsoft.com":mailto:
+ dianab@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kevin.tupp
+ er@gmail.com:mailto:kevin.tupper@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Abby Quinn
+  (She/Her):mailto:Abby.Quinn@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bonnie Jon
+ es (MW):mailto:Bonnie.Jones@microsoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kevin Tupp
+ er:mailto:kevin.tupper@microsoft.com
+DESCRIPTION;LANGUAGE=en-US:\n\n\nFrom: dianab@microsoft.com\nWhen: 12:00 
+ PM - 1:00 PM May 13\, 2025\nSubject: Webinar - M365 Copilot Chat and pro
+ mpt engineering (M365 Copilot)\nLocation: Microsoft Teams Meeting\n\n\n
+ 🚀Come learn how to use Microsoft 365 Copilot Chat! 🚀\nAs part of our
+  Microsoft 365 Copilot series of webinars\, we are inviting you to an inte
+ ractive session on Microsoft 365 Copilot Chat!\n\nDuring this webinar\, yo
+ u will learn the benefits of using Microsoft 365 Copilot Chat and try it h
+ ands on with interactive exercises!\n\nIf you have questions about this em
+ ail\, please reach out to your Microsoft Account Representative.\n\n\n____
+ __________________________________________________________________________
+ __\nMicrosoft Teams meeting Need help?<https://aka.ms/JoinTeamsMeeting?omk
+ t=en-US>\nJoin: https://teams.microsoft.com/meet/2785431422091?p=CH2B6XG0t
+ msQ8TeQT7 <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWIzYmE4
+ YzMtYzI5OC00YzVmLWJkZTgtMjllNTYxMWJjZGY0%40thread.v2/0?context=%7b%22Tid%2
+ 2%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5
+ 529-4e1c-87cd-0199d35d981f%22%7d>\nMeeting ID: 278 543 142 209 1\nPasscode
+ : Wj3C2LA3\n________________________________\nDial in by phone\n+1 323-849
+ -4874\,\,133666989#<tel:+13238494874\,\,133666989#> United States\, Los An
+ geles\nFind a local number<https://dialin.teams.microsoft.com/8551f4c1-bea
+ 3-441a-8738-69aa517a91c5?id=133666989>\nPhone conference ID: 133 666 989#\
+ nFor organizers: Meeting options<https://teams.microsoft.com/meetingOption
+ s/?organizerId=5f858822-5529-4e1c-87cd-0199d35d981f&tenantId=72f988bf-86f1
+ -41af-91ab-2d7cd011db47&threadId=19_meeting_ZWIzYmE4YzMtYzI5OC00YzVmLWJkZT
+ gtMjllNTYxMWJjZGY0@thread.v2&messageId=0&language=en-US> | Reset dial-in P
+ IN<https://dialin.teams.microsoft.com/usp/pstnconferencing>\n[https://us-p
+ rod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d9-299af646bec93ea1c7cc1c
+ 9ec2763153/views/imgt2?amsauth=amsdocv1.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNT
+ MyNDBlNWU4MzA2.RGlFWWhlZCtpVTQxT2xnTkp6aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM
+ 4TjErb1Z1UUNBVjRaOWRNR3NFeDZ5TjYzMFpjKzdQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R
+ 2dHZmtnc1NKQjZaSzlQMHNYTjJOdzRKMS9naFplQzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y
+ 2K0RTdFEzRWNrZElBQWpZME95QWR5V1g4VDhGTUZ4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82b
+ mhCc1NJY1BERDFWemJYT0V4M1Q5c1dTT0U4Z2ExSlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzh
+ FMENMNy9WS1RBWUJCOWhBK1lGQzZhUlRkbDdDVjZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUY
+ zAyTmMvRkhjWmpWM2p0Zzh5U2xnPT0.dGVhbXMubW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk
+ 0NGE0N2IyN2JhODkyYjg3NWRhNGY.AeWjJxcwHQq8IzF_8msiTLtJsrwscuGjDZgEy055oFsVE
+ bsfkHB2WnUd1YXjox4zw3Jbg4whGQMNcXeeS069_iM]\n_____________________________
+ ___________________________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000055A20ECFDB9DB01000000000000000
+ 010000000145F4B24930EC844ADAB590CC8058BC1
+SUMMARY;LANGUAGE=en-US:FW: Webinar - M365 Copilot Chat and prompt engineeri
+ ng (M365 Copilot)
+DTSTART;TZID=Eastern Standard Time:20250513T120000
+DTEND;TZID=Eastern Standard Time:20250513T130000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250430T183950Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123691781
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 323-849-4874
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:133666989
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZWIzYmE4YzMtYzI5OC00YzVmLWJkZTgtMjllNTYxMWJjZGY0%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22O
+ id%22%3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://dogfood-api.scheduler.teams.
+ microsoft.com/teams/72f988bf-86f1-41af-91ab-2d7cd011db47/5f858822-5529-4e1
+ c-87cd-0199d35d981f/19_meeting_ZWIzYmE4YzMtYzI5OC00YzVmLWJkZTgtMjllNTYxMWJ
+ jZGY0@thread.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZWIzYmE4YzMtYzI5OC00YzV
+ mLWJkZTgtMjllNTYxMWJjZGY0@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
 END:VEVENT
 END:VCALENDAR
