@@ -51,6 +51,8 @@
     }
     .card-header {
       padding: 24px 24px 0 24px;
+      display: flex;
+      flex-direction: column;
     }
     .card-date {
       font-size: 1.1rem;
@@ -75,7 +77,15 @@
     .card-desc {
       font-size: 1rem;
       color: #444;
-      margin-bottom: 18px;
+      margin-bottom: 0;
+      min-height: 60px; /* Ensures all descriptions are the same height */
+      display: flex;
+      align-items: flex-end;
+    }
+    .card-divider {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 16px 0 12px 0;
     }
     .card-time {
       font-style: italic;
@@ -136,11 +146,20 @@
           <div class="card-day">1</div>
           <div class="card-title">Meeting</div>
           <div class="card-desc">Microsoft 365 Copilot Chat – empowering every employee with a Copilot</div>
+          <hr class="card-divider">
           <div class="card-time">Thu, May 1, 12:00 PM</div>
           <div class="card-location">Teams meeting</div>
         </div>
         <div class="card-footer">
-          <!-- No calendar link for this one -->
+          <a class="calendar-link" href="https://kevintupper.github.io/Federal_Copilot_Webinars/invites/webinar-2025-05-20.ics" download="webinar-2025-05-01.ics">
+            <svg class="calendar-icon" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" fill="#fff" stroke="#b1461b" stroke-width="1.5"/>
+              <rect x="3" y="8" width="18" height="2" fill="#b1461b"/>
+              <rect x="7" y="12" width="10" height="6" fill="#b1461b" opacity="0.2"/>
+              <rect x="10" y="15" width="4" height="2" fill="#b1461b"/>
+            </svg>
+            Add to calendar
+          </a>
         </div>
       </div>
       <!-- Card 2 -->
@@ -150,6 +169,7 @@
           <div class="card-day">13</div>
           <div class="card-title">Meeting</div>
           <div class="card-desc">M365 Copilot Chat and prompt engineering (M365 Copilot)</div>
+          <hr class="card-divider">
           <div class="card-time">Tue, May 13, 12:00 PM</div>
           <div class="card-location">Teams Meeting</div>
         </div>
@@ -172,6 +192,7 @@
           <div class="card-day">20</div>
           <div class="card-title">Meeting</div>
           <div class="card-desc">Copilot in Teams, Outlook, Word, and PPT (Microsoft 365 Copilot)</div>
+          <hr class="card-divider">
           <div class="card-time">Tue, May 20, 12:00 PM</div>
           <div class="card-location">Teams Meeting</div>
         </div>
@@ -194,6 +215,7 @@
           <div class="card-day">27</div>
           <div class="card-title">Meeting</div>
           <div class="card-desc">Realize Value with Copilot Chat</div>
+          <hr class="card-divider">
           <div class="card-time">Tue, May 27, 12:00 PM</div>
           <div class="card-location">Teams meeting</div>
         </div>
