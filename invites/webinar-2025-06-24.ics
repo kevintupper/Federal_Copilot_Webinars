@@ -1,0 +1,237 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Abby Quinn (She/Her)";RSVP=TRUE:mailto:Abby.Quinn@microsoft.co
+	m
+ATTENDEE;CN="Bonnie Jones (MW)";RSVP=TRUE:mailto:Bonnie.Jones@microsoft.com
+ATTENDEE;CN="Kevin Tupper";RSVP=TRUE:mailto:kevin.tupper@microsoft.com
+CLASS:PUBLIC
+CREATED:20250516T160920Z
+DESCRIPTION:\n\n🚀Come learn how to empower every employee with a Copil
+	ot! \n\n\nIntroducing Copilot Chat (Copilot for All)🚀\n\n\nAs part of
+	 our Microsoft 365 Copilot webinar series\, we are inviting you to a sessi
+	on on Copilot Chat - already included in your Microsoft 365 license. Learn
+	 how to empower every employee with an AI assistant!\n\n\n\n\nDuring this 
+	webinar\, you will experience Copilot Chat in action and learn how its fun
+	ctionality can enhance the productivity of every employee in the organizat
+	ion.\n\n\n\n\n*Copilot Chat is coming to Government Commercial Cloud in Ju
+	ne 2025.\n\n\n\n\nIf you have questions about this event\, please reach ou
+	t to your Microsoft Account Representative.\n\n\n\n\nIf you prefer I not f
+	orward you these types of communications\, just let me know. To learn how 
+	to manage your contact preferences for other parts of Microsoft\, please r
+	ead our Privacy Statement <https://go.microsoft.com/fwlink/?LinkId=521839>
+	 .\n\n\n\n________________________________________________________________
+	________________\nMicrosoft Teams meeting Need help? <https://aka.ms/JoinT
+	eamsMeeting?omkt=en-US>  \nJoin: https://teams.microsoft.com/meet/29520177
+	44636?p=75cSnJRD2vaVoMLbu0 <https://teams.microsoft.com/meet/2952017744636
+	?p=75cSnJRD2vaVoMLbu0>   <https://teams.microsoft.com/l/meetup-join/19%3am
+	eeting_NDE2MDRhYTktYTkyZC00MWQ3LWE4MzAtZTZlZjM3ZDYwYzJk%40thread.v2/0?cont
+	ext=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%
+	3a%225f858822-5529-4e1c-87cd-0199d35d981f%22%7d>  \nMeeting ID: 295 201 77
+	4 463 6 \nPasscode: 92Qo39j9 \n________________________________\n\nDial in
+	 by phone \n+1 323-849-4874\,\,140772155# <tel:+13238494874\,\,140772155#>
+	  United States\, Los Angeles \nFind a local number <https://dialin.teams.
+	microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=140772155>  \nPhone 
+	conference ID: 140 772 155# \nFor organizers: Meeting options <https://tea
+	ms.microsoft.com/meetingOptions/?organizerId=5f858822-5529-4e1c-87cd-0199d
+	35d981f&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&threadId=19_meeting_
+	NDE2MDRhYTktYTkyZC00MWQ3LWE4MzAtZTZlZjM3ZDYwYzJk@thread.v2&messageId=0&lan
+	guage=en-US>  | Reset dial-in PIN <https://dialin.teams.microsoft.com/usp/
+	pstnconferencing>  \n <https://us-prod.asyncgw.teams.microsoft.com/v1/obje
+	cts/0-cus-d9-299af646bec93ea1c7cc1c9ec2763153/views/imgt2?amsauth=amsdocv1
+	.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNTMyNDBlNWU4MzA2.RGlFWWhlZCtpVTQxT2xnTkp6
+	aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM4TjErb1Z1UUNBVjRaOWRNR3NFeDZ5TjYzMFpjKz
+	dQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R2dHZmtnc1NKQjZaSzlQMHNYTjJOdzRKMS9naFpl
+	QzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y2K0RTdFEzRWNrZElBQWpZME95QWR5V1g4VDhGTU
+	Z4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82bmhCc1NJY1BERDFWemJYT0V4M1Q5c1dTT0U4Z2Ex
+	SlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzhFMENMNy9WS1RBWUJCOWhBK1lGQzZhUlRkbDdDVj
+	ZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUYzAyTmMvRkhjWmpWM2p0Zzh5U2xnPT0.dGVhbXMu
+	bW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk0NGE0N2IyN2JhODkyYjg3NWRhNGY.AeWjJxcwHQ
+	q8IzF_8msiTLtJsrwscuGjDZgEy055oFsVEbsfkHB2WnUd1YXjox4zw3Jbg4whGQMNcXeeS069
+	_iM> \n___________________________________________________________________
+	_____________\n
+DTEND;TZID="Eastern Standard Time":20250624T130000
+DTSTAMP:20250516T155919Z
+DTSTART;TZID="Eastern Standard Time":20250624T120000
+LAST-MODIFIED:20250516T160920Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Diana Berson":mailto:dianab@microsoft.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Webinar - Realize Value with Copilot Chat (Copilot f
+	or All)
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000A8D2E97A7BC6DB01000000000000000
+	010000000DF36831E4BB63843ADFDCB77413C1E4A
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<div style=
+	"font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\,
+	 Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">\n<br
+	>\n</div>\n<h2 class="elementToProof" style="text-align: left\; text-inden
+	t: 0px\; background-color: white\; margin-right: 0in\; margin-left: 0in\; 
+	font-family: Aptos\, sans-serif\; font-size: 18pt\; color: rgb(0\, 0\, 0)\
+	;">\n<span style="font-family: &quot\;Segoe UI Emoji&quot\;\, sans-serif\;
+	 color: rgb(66\, 66\, 66)\; background-color: white\;">🚀</span><span 
+	style="font-family: &quot\;Segoe UI&quot\;\, sans-serif\; color: rgb(66\, 
+	66\, 66)\;">Come learn how to empower every employee with a Copilot!&nbsp\
+	;</span></h2>\n<h2 class="elementToProof" style="text-align: left\; text-i
+	ndent: 0px\; background-color: white\; margin-right: 0in\; margin-left: 0i
+	n\; font-family: Aptos\, sans-serif\; font-size: 18pt\; color: rgb(0\, 0\,
+	 0)\;">\n<span style="font-family: &quot\;Segoe UI&quot\;\, sans-serif\; c
+	olor: rgb(66\, 66\, 66)\;">Introducing Copilot Chat (Copilot for All)</spa
+	n><span style="font-family: &quot\;Segoe UI Emoji&quot\;\, sans-serif\; co
+	lor: rgb(66\, 66\, 66)\; background-color: white\;">🚀</span></h2>\n<p
+	 class="elementToProof" style="text-align: left\; text-indent: 0px\; backg
+	round-color: white\; margin-right: 0in\; margin-left: 0in\;">\n<span style
+	="font-family: &quot\;Segoe UI&quot\;\, sans-serif\; font-size: 10.5pt\; c
+	olor: rgb(66\, 66\, 66)\;">As part of our Microsoft 365 Copilot webinar se
+	ries\, we are inviting you to a session on Copilot Chat - already included
+	 in your Microsoft 365 license. Learn how to\n empower every employee with
+	 an AI assistant!</span></p>\n<p class="elementToProof" style="text-align:
+	 left\; text-indent: 0px\; background-color: white\; margin-right: 0in\; m
+	argin-left: 0in\;">\n<span style="font-family: &quot\;Segoe UI&quot\;\, sa
+	ns-serif\; font-size: 10.5pt\; color: rgb(66\, 66\, 66)\;"><br>\n</span></
+	p>\n<p class="elementToProof" style="text-align: left\; text-indent: 0px\;
+	 background-color: white\; margin-right: 0in\; margin-left: 0in\;">\n<span
+	 style="font-family: &quot\;Segoe UI&quot\;\, sans-serif\; font-size: 10.5
+	pt\; color: rgb(66\, 66\, 66)\;">During this webinar\, you will experience
+	 Copilot Chat in action and learn how its functionality can enhance the pr
+	oductivity of every employee in the organization.</span></p>\n<p class="el
+	ementToProof" style="text-align: left\; text-indent: 0px\; background-colo
+	r: white\; margin-right: 0in\; margin-left: 0in\;">\n<span style="font-fam
+	ily: &quot\;Segoe UI&quot\;\, sans-serif\; font-size: 10.5pt\; color: rgb(
+	66\, 66\, 66)\;"><br>\n</span></p>\n<p class="elementToProof" style="text-
+	align: left\; text-indent: 0px\; background-color: white\; margin-right: 0
+	in\; margin-left: 0in\;">\n<span style="font-family: &quot\;Segoe UI&quot\
+	;\, sans-serif\; font-size: 10.5pt\; color: rgb(66\, 66\, 66)\;">*Copilot 
+	Chat is coming to Government Commercial Cloud in June 2025.</span></p>\n<p
+	 class="elementToProof" style="text-align: left\; text-indent: 0px\; backg
+	round-color: white\; margin-right: 0in\; margin-left: 0in\;">\n<span style
+	="font-family: &quot\;Segoe UI&quot\;\, sans-serif\; font-size: 10.5pt\; c
+	olor: rgb(66\, 66\, 66)\;"><br>\n</span></p>\n<p class="elementToProof" st
+	yle="text-align: left\; text-indent: 0px\; background-color: white\; margi
+	n-right: 0in\; margin-left: 0in\;">\n<span style="font-family: &quot\;Sego
+	e UI&quot\;\, sans-serif\; font-size: 10.5pt\; color: rgb(66\, 66\, 66)\;"
+	>If you have questions about this event\, please reach out to your Microso
+	ft Account Representative.</span></p>\n<p class="elementToProof" style="te
+	xt-align: left\; text-indent: 0px\; background-color: white\; margin-right
+	: 0in\; margin-left: 0in\;">\n<span style="font-family: &quot\;Segoe UI&qu
+	ot\;\, sans-serif\; font-size: 10.5pt\; color: rgb(66\, 66\, 66)\;"><br>\n
+	</span></p>\n<div class="elementToProof" style="text-align: left\; text-in
+	dent: 0px\; margin: 0px\; font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_
+	MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\;">\n<s
+	pan style="color: rgb(0\, 0\, 0)\;"><i>If you prefer I not forward you the
+	se types of communications\, just let me know. To learn how to manage your
+	 contact preferences for other parts of Microsoft\, please read our\n</i><
+	/span><span style="color: rgb(0\, 120\, 212)\;"><i><u><a href="https://go.
+	microsoft.com/fwlink/?LinkId=521839" target="_blank" id="OWA2b3e729a-1895-
+	7243-9878-5efdb25374fa" class="OWAAutoLink" style="color: rgb(0\, 120\, 21
+	2)\; margin: 0px\;">Privacy&nbsp\;Statement</a></u></i></span><span style=
+	"color: rgb(0\, 0\, 0)\;"><i>.</i></span></div>\n<div class="elementToProo
+	f" style="text-align: left\; text-indent: 0px\; background-color: white\; 
+	margin-right: 0in\; margin-left: 0in\; font-family: &quot\;Segoe UI Emoji&
+	quot\;\, sans-serif\; color: rgb(66\, 66\, 66)\;">\n<span style="backgroun
+	d-color: white\;"><br>\n</span></div>\n<br>\n<div style="max-width: 600px\
+	; color: #242424\; font-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Ar
+	ial\,sans-serif" class="me-email-text">\n<div style="margin-bottom:24px\;o
+	verflow:hidden\;white-space:nowrap\;">____________________________________
+	____________________________________________</div>\n<div style="margin-bot
+	tom: 12px\;"><span class="me-email-text" style="font-size: 24px\;font-weig
+	ht: 700\; margin-right:12px\;">Microsoft Teams meeting</span>\n<a id="meet
+	_invite_block.action.help" class="me-email-link" style="font-size:14px\; t
+	ext-decoration:underline\; color: #5B5FC7\;" href="https://aka.ms/JoinTeam
+	sMeeting?omkt=en-US">\nNeed help?</a> </div>\n<div style="margin-bottom: 6
+	px\; overflow-wrap: break-word\;"><span class="me-email-text" style="font-
+	size: 16px\; color: #242424\; font-weight: 600">Join:</span>\n<a id="meet_
+	invite_block.action.join_link" title="Meeting join link" aria-label="Meeti
+	ng join link" class="me-email-link" style="font-size: 16px\; font-weight: 
+	600\; text-decoration: underline\; color: #5B5FC7\;" href="https://teams.m
+	icrosoft.com/meet/2952017744636?p=75cSnJRD2vaVoMLbu0">\nhttps://teams.micr
+	osoft.com/meet/2952017744636?p=75cSnJRD2vaVoMLbu0</a> <a data-field="value
+	" id="meet_invite_block.action.join_link_compatibility" href="https://team
+	s.microsoft.com/l/meetup-join/19%3ameeting_NDE2MDRhYTktYTkyZC00MWQ3LWE4MzA
+	tZTZlZjM3ZDYwYzJk%40thread.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41
+	af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%225f858822-5529-4e1c-87cd-0199d35d9
+	81f%22%7d">\n<img style="width: 1px\; height: 1px" height="1px" width="1px
+	" src="data:image/png\;base64\,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAw
+	CAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="></a>\n</div>\n<div styl
+	e="margin-bottom: 6px\;"><span class="me-email-text-secondary" style="font
+	-size: 14px\; color: #616161\;">Meeting ID:\n</span><span class="me-email-
+	text" style="font-size: 14px\; color: #242424\;">295 201 774 463 6</span>\
+	n</div>\n<div style="margin-bottom: 24px\;"><span class="me-email-text-sec
+	ondary" style="font-size: 14px\; color: #616161\;">Passcode:\n</span><span
+	 class="me-email-text" style="font-size: 14px\; color: #242424\;">92Qo39j9
+	</span>\n</div>\n<div style="margin-bottom: 24px\; max-width: 532px\;">\n<
+	hr style="border: 0\; background: #D1D1D1\; height: 1px\;">\n</div>\n<div>
+	\n<div style="margin-bottom: 6px\;"><span class="me-email-text" style="fon
+	t-size: 16px\; color: #242424\; font-weight: 600\; margin-right: 4px\;">Di
+	al in by phone</span>\n</div>\n<div style="margin-bottom: 6px\;"><a id="me
+	et_invite_block.action.join_phone_number1" class="me-email-link" style="fo
+	nt-size: 14px\; text-decoration: underline\; color: #5B5FC7\; margin-right
+	: 6px\;" href="tel:+13238494874\,\,140772155#">+1 323-849-4874\,\,14077215
+	5#</a>\n<span class="me-email-text" style="font-size: 14px\; color: #61616
+	1\;">United States\, Los Angeles</span>\n</div>\n<div style="margin-bottom
+	: 6px\;"><a id="meet_invite_block.action.join_phone_find_local_number" cla
+	ss="me-email-link" style="font-size: 14px\; text-decoration: underline\; c
+	olor: #5B5FC7" href="https://dialin.teams.microsoft.com/8551f4c1-bea3-441a
+	-8738-69aa517a91c5?id=140772155">Find\n a local number</a> </div>\n</div>\
+	n<div style="margin-bottom: 24px\;"><span class="me-email-text-secondary" 
+	style="font-size: 14px\; color: #616161\;">Phone conference ID:\n</span><s
+	pan class="me-email-text" style="font-size: 14px\; color: #242424\;">140 7
+	72 155#</span>\n</div>\n<div><span class="me-email-text-secondary" style="
+	font-size: 14px\; color: #616161\;">For organizers:\n</span><a id="meet_in
+	vite_block.action.organizer_meet_options" class="me-email-link" style="fon
+	t-size: 14px\; text-decoration: underline\; color: #5B5FC7\;" target="_bla
+	nk" href="https://teams.microsoft.com/meetingOptions/?organizerId=5f858822
+	-5529-4e1c-87cd-0199d35d981f&amp\;tenantId=72f988bf-86f1-41af-91ab-2d7cd01
+	1db47&amp\;threadId=19_meeting_NDE2MDRhYTktYTkyZC00MWQ3LWE4MzAtZTZlZjM3ZDY
+	wYzJk@thread.v2&amp\;messageId=0&amp\;language=en-US" rel="noreferrer noop
+	ener">Meeting\n options</a> <span style="color: #D1D1D1">|</span> <a id="m
+	eet_invite_block.action.organizer_reset_dialin_pin" class="me-email-link" 
+	style="font-size: 14px\; text-decoration: underline\; color: #5B5FC7\;" ta
+	rget="_blank" href="https://dialin.teams.microsoft.com/usp/pstnconferencin
+	g" rel="noreferrer noopener">\nReset dial-in PIN</a> </div>\n<div style="m
+	argin-top: 24px\; margin-bottom: 6px\;"><img style="height: 32px\; display
+	: block\; margin-bottom: 6px\;" src="https://us-prod.asyncgw.teams.microso
+	ft.com/v1/objects/0-cus-d9-299af646bec93ea1c7cc1c9ec2763153/views/imgt2?am
+	sauth=amsdocv1.OTFjNzBjYzAtYzdkZC00MTFlLWFhOTctNTMyNDBlNWU4MzA2.RGlFWWhlZC
+	tpVTQxT2xnTkp6aUpqeDdQb0pFa1FxU0NYVndLS1puMFRvWFM4TjErb1Z1UUNBVjRaOWRNR3NF
+	eDZ5TjYzMFpjKzdQUlZNNEx1ZFpQbi9CSUtsTEFxeHA0WEx1R2dHZmtnc1NKQjZaSzlQMHNYTj
+	JOdzRKMS9naFplQzY2TStVd2JCdXc4WGk2QU1iSGFpOTdFR2Y2K0RTdFEzRWNrZElBQWpZME95
+	QWR5V1g4VDhGTUZ4czdHM0ZXSXU1Ym9YdkZlSW5DSithOU82bmhCc1NJY1BERDFWemJYT0V4M1
+	Q5c1dTT0U4Z2ExSlQxTVQvamU3ZWVhVTlMMHlwT1B6ZzlSdzhFMENMNy9WS1RBWUJCOWhBK1lG
+	QzZhUlRkbDdDVjZEM1VNME4zSVNmOXFYbHpzZ1lORE5CRnBUYzAyTmMvRkhjWmpWM2p0Zzh5U2
+	xnPT0.dGVhbXMubW1rLjAwMDAwMDAwMTRfOTE4ODRmMzg1Nzk0NGE0N2IyN2JhODkyYjg3NWRh
+	NGY.AeWjJxcwHQq8IzF_8msiTLtJsrwscuGjDZgEy055oFsVEbsfkHB2WnUd1YXjox4zw3Jbg4
+	whGQMNcXeeS069_iM">\n</div>\n<div style="margin-bottom: 24px\;"></div>\n<d
+	iv style="margin-bottom:24px\;overflow:hidden\;white-space:nowrap\;">_____
+	__________________________________________________________________________
+	_</div>\n</div>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-APPTSEQTIME:20250516T155919Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
